@@ -1,0 +1,133 @@
+body {
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #111;
+    font-size: 18px;
+    background: #fff;
+    font-weight: 400;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.translator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.label {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+}
+
+.russian {
+    background-color: #fff;
+    width: 50%;
+    max-width: 700px;
+
+    margin-right: 8px;
+
+    text-align: center;
+}
+
+.tatar {
+    background-color: #fff;
+    width: 50%;
+    max-width: 700px;
+
+    margin-left: 8px;
+
+    text-align: center;
+}
+
+.translateBlock {
+    height: 160px;
+    background-color: #fff;
+    margin: 0px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+
+.textInput {
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    resize: none;
+    background-color: #eee;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#buttonUploadTatar {
+    display: none;
+}
+#buttonUploadRussian {
+    display: none;
+}
+
+.uploadAnImage {
+    margin-top: -10px;
+    display: block;
+    justify-content: center;
+    background-color: #5A92FF;
+    border-radius: 10px;
+}
+.uploadAnImage:hover {
+    cursor: pointer;
+}
+.uploadAnImage.highlight {
+    background-color: #4976CF;
+}
+
+.uploadText {
+    padding-top: 20px;
+    color: white;
+}
+
+.uploadImage {
+    outline: none;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+}
+
+.translateButton {
+    outline: none;
+    border-style: none;
+    background-color: #eee;
+    margin-top: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.translateButton:hover {
+    cursor: pointer;
+}
+
+.labelTranslate {
+    font: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #5A92FF;
+}
+
+.imageTranslateArrow {
+    width: 33px;
+}
